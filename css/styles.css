@@ -1,0 +1,53 @@
+/* Ensure that the player uses all available width */
+.container .demo-layout-vertical .demo-layout-content {
+	max-width: 100%;
+	min-width: 0;
+}
+
+#error {
+	display: none;
+}
+
+#error.active {
+	display: block;
+	padding: 20px 20px;
+	border: solid 1px #d9dde6;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+#instructions h3 {
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#instructions h4 {
+	font-size: 13px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#instructions p {
+	margin: 20px 30px;
+}
+
+#instructions p.subtext {
+	font-size: 17px;
+}
+
+.vr-download-buttons > a {
+	width: 100%;
+}
+
+.vr-download-buttons > a:nth-child(1n+2) {
+	margin-top: 10px;
+}
+
+@media (min-width: 515px) {
+	.vr-download-buttons > a.btn {
+		width: auto;
+		margin-top: 0;
+	}
+}

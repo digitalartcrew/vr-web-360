@@ -1,0 +1,14 @@
+{
+  "title": "360° Video",
+  "description": "Website to display 360 video",
+  "license": "Premium",
+  "showCode": false,
+  "layout": "horizontal",
+  "apiCalls": [
+    ""
+  ],
+  "author": {
+  	"name": "360 Website",
+  	"githubUsername": "digitalartcrew"
+  }
+}
